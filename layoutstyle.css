@@ -1,0 +1,336 @@
+/* Estilo do Layout */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo Navegação */
+
+header nav {
+    background-image: url("nav.png");
+    width: 100vw;
+    height: 50px;
+    margin-top: 30px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+
+header nav ul {
+    padding: 15px 20px;
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li a {
+    padding: 0 7px;
+    text-decoration: none;
+    font-family: Didot;
+    color: #5C5C5C;
+    font-size: 20px;
+
+}
+
+/* Estilo Título e Subtítulo */
+
+header h1 {
+    margin-top: 120px;
+    font-family: Apple Chancery;
+    color: #5C5C5C
+
+}
+
+header h4 {
+    color: #7B9092;
+    margin-top: 0;
+    font-family: Didot;
+    font-size: 18px;
+}
+
+
+/* Estilo About */
+
+section#about {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFBF4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section#about h2 {
+    font-family: Didot;
+    color:#5c5c5c;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+section#about img.fotoana {
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto;
+    border-radius: 50%;
+}
+
+section#about div.conteudo-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 10px;
+
+}
+
+section#about div.conteudo-about h3 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #7B9092;
+    font-family: Didot;
+}
+
+section#about div.conteudo-about p {    
+    width:80vw;
+    height: 250px;
+    font-family: Didot;
+    font-size: 16px;
+    line-height: 25px;   
+    color: #5C5C5C; 
+
+}
+
+
+/* Estilo Portfólio  */
+
+section#portfolio{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e1c5c2;
+}
+
+section#portfolio h2{
+    font-family: Didot;
+    color:#5C5C5C;
+    margin: 30px 0;
+}
+
+section#portfolio div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#portfolio div div img {
+    margin: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+    
+/* Estilo Social */
+section#social {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#social h2{
+    font-family: Didot;
+    color:#5C5C5C;
+    margin: 30px 0;
+}
+
+section#social h4 {
+    color: #7B9092;
+    font-family: Didot;
+    font-size: 18px;
+    padding: 0 30px;
+}
+
+
+section#social nav {
+    justify-content: center;
+}
+
+section#social nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+section#social nav ul li {
+    list-style: none;
+}
+
+section#social nav ul li.linkedin { 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    background-image: url("icons8-linkedin-50.png");
+}
+
+section#social nav ul li.github { 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    background-image: url("icons8-github-100.png");
+}
+
+section#social nav ul li.instagram { 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    background-image: url("icons8-instagram-50.png");
+}
+
+
+
+/* Estilo Footer */
+
+footer {
+    height: 20px;
+    background-color: lightgray ;
+    text-align: center;
+}
+
+/* Screen 785px */
+
+@media (min-width: 760px) {
+    header {
+        width: 100vw;
+        height:100vh;
+        background-image: url("background2.jpg");
+        background-position-y: -20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        }
+
+    /* Estlo Navegação */
+    header nav {
+        background-image: url("nav.png");
+        width: 100vw;
+        height: 50px;
+        display: flex;
+        margin-top: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav ul {
+        padding: 18px 0px;
+        list-style: none;
+        display: flex;
+    }
+
+    header nav ul li a {
+        padding: 0 30px;
+        text-decoration: none;
+        font-family: Didot;
+        color: #5C5C5C;
+        font-size: 25px;
+    
+    }
+
+    /* Estilo Título e Subtítulo */
+
+    header h1 {
+        margin-top: 100px;
+        font-family: Apple Chancery;
+        color: #5C5C5C;
+        font-size: 40px;
+
+    }
+
+    header h4 {
+        color: #7B9092;
+        font-family: Didot;
+        font-size: 25px;
+    }
+    /* Estilo About */
+
+    section#about h2 {
+        font-family: Didot;
+        font-size: 45px;
+        color:#5C5C5C;
+        margin: 30px 0;
+    }
+
+    section#about div.conteudo-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 25px 10px;
+    
+    }
+    
+    section#about div.conteudo-about h3 {
+        margin-top: 5px;
+        margin-bottom: 20px;
+        color: #7B9092;
+        font-family: Didot;
+        font-size: 25px;
+    }
+    
+    section#about div.conteudo-about p {    
+        width:50vw;
+        height: 250px;
+        font-family: Didot;
+        font-size: 20px;
+        line-height: 30px;   
+        color: #5C5C5C; 
+    
+    }
+
+    /* Estilo Portfólio */
+
+    section h2{
+        font-family: Didot;
+        font-size: 45px;
+        color:#5C5C5C;
+        margin: 30px 0;
+    }
+        
+}
+
+/* Screem 1350PX */
+
+@media (min-width: 1350px) {
+    header {
+        width: 100vw;
+        height: 100vh;
+        background-image: url("background2.jpg");
+        background-position-y: -180px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        }
+        
+    
+        
+    }
+        
