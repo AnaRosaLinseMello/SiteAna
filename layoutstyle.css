@@ -8,7 +8,7 @@
 header {
     width: 100vw;
     height: 100vh;
-    background-image: url("background.jpg");
+    background-image: url("img/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -19,7 +19,7 @@ header {
 /* Estilo Navegação */
 
 header nav {
-    background-image: url("nav.png");
+    background-image: url("img/nav.png");
     width: 100vw;
     height: 50px;
     margin-top: 30px;
@@ -188,7 +188,7 @@ section#social nav ul li.linkedin {
     background-size: cover;
     width: 80px;
     height: 80px;
-    background-image: url("icons8-linkedin-50.png");
+    background-image: url("icons/icons8-linkedin-50.png");
 }
 
 section#social nav ul li.github { 
@@ -196,7 +196,7 @@ section#social nav ul li.github {
     background-size: cover;
     width: 80px;
     height: 80px;
-    background-image: url("icons8-github-100.png");
+    background-image: url("icons/icons8-github-100.png");
 }
 
 section#social nav ul li.instagram { 
@@ -204,7 +204,7 @@ section#social nav ul li.instagram {
     background-size: cover;
     width: 80px;
     height: 80px;
-    background-image: url("icons8-instagram-50.png");
+    background-image: url("icons/icons8-instagram-50.png");
 }
 
 
@@ -223,7 +223,7 @@ footer {
     header {
         width: 100vw;
         height: 100vh;
-        background-image: url("background2.jpg");
+        background-image: url("img/background2.jpg");
         background-position-y: -20px;
         background-size: cover;
         background-repeat: no-repeat;
@@ -233,7 +233,7 @@ footer {
 
     /* Estlo Navegação */
     header nav {
-        background-image: url("nav.png");
+        background-image: url("img/nav.png");
         width: 100vw;
         height: 50px;
         display: flex;
@@ -324,7 +324,7 @@ footer {
     header {
         width: 100vw;
         height: 100vh;
-        background-image: url("background2.jpg");
+        background-image: url("img/background2.jpg");
         background-position-y: -180px;
         background-size: cover;
         background-repeat: no-repeat;
