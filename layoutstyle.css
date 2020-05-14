@@ -81,7 +81,7 @@ section#about h2 {
 
 section#about img.fotoana {
     width: 150px;
-    height: 150px;
+    height: auto;
     background-repeat: no-repeat;
     background-position: top;
     background-size: auto;
@@ -177,6 +177,7 @@ section#social nav ul {
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
+    margin-bottom: 40px ;
 }
 
 section#social nav ul li {
